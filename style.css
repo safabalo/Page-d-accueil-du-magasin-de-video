@@ -1,14 +1,32 @@
-nav ul {
-    display: flex;
-}
+
 nav ul li {
     list-style-type: none; 
     display: inline;
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
     
 }
 nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul #logo{
+    padding-right: 10px;
+}
+section ul {
+    list-style-type: none;
+    padding: 20px;
+
+}
+section ul li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+section ul li:before{
+    content: "/";
+}
+section ul li a {
     text-decoration: none;
     color: black;
 }
