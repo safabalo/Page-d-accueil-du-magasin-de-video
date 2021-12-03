@@ -4,7 +4,7 @@ nav ul li {
     display: inline;
     padding: 20px;
     font-size: 25px;
-    
+    font-family:Arial, Helvetica, sans-serif;
 }
 nav ul li a{
     text-decoration: none;
@@ -12,6 +12,9 @@ nav ul li a{
 }
 nav ul #logo{
     padding-right: 10px;
+}
+.paragraph{
+    font-family:Arial, Helvetica, sans-serif;
 }
 section ul {
     list-style-type: none;
@@ -22,6 +25,7 @@ section ul li{
     display: inline-block;
     margin: 5px;
     font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 section ul li:before{
     content: "/";
@@ -29,4 +33,41 @@ section ul li:before{
 section ul li a {
     text-decoration: none;
     color: black;
+}
+.produits{
+    display: flex;
+}
+.produits>div
+{
+    padding: 0px 7px;
+    margin: 5px;
+}
+.produits .rrp {
+    color: gray;
+}
+.produits .saving {
+    color:green;
+}
+.p1{
+    border-style: groove;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p2{
+    border-style: groove;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p3{
+    border-style: groove;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p4{
+    border-style: groove;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.produits .pic{
+    margin-top: 5px;
+}
+.produits .ad{
+    text-decoration: none;
+    color:black;
 }
