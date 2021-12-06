@@ -1,47 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato:ital,wght@1,400;1,900&family=Work+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato:ital,wght@1,400;1,900&family=Work+Sans:wght@500&display=swap');
 
-*
-{
-
-margin: 0px;
-margin-top: 10px;
-padding:0px;
-}
 nav ul li {
     list-style-type: none; 
     display: inline;
-    padding: 20px 10px 0px 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    
 }
 nav ul li a{
     text-decoration: none;
     color: black;
-
+    margin-top: 100px;
+    padding-top: 0px;
+    font-size: 15px;
+    padding-right: 10px;
 }
-nav ul #logo{
-    box-sizing: border-box;
-    border: 20px 0px 20px auto ;
-    margin:20px 1px 10px 0px;
-    padding-left: 20px;
-    margin-right: 50px;
-    padding-right: 30px;
-    padding-top: 100px;
+.first{
+    margin-left: -30px;
+}
+nav #logo{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
     padding-bottom: 0px;
     font-family: 'Fira Sans', sans-serif;
     color:whitesmoke;
     background-color: black;
     font-size: 70px;
+    border-style: none;
     
 
 
 }
-.paragraph{
-    margin-left: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-}
+
 section ul {
     list-style-type: none;
     padding: 20px;
@@ -49,19 +44,33 @@ section ul {
 }
 section ul li{
     display: inline-block;
-    margin: 5px;
-    font-size: 20px;
+    margin: 1px;
+    font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
 section ul li + li:before{
-    content: "/";
+    content: ">";
 }
 section ul li a {
     text-decoration: none;
+    color: rgb(97, 125, 214);
+    
+}
+#less{
     color: black;
 }
+.paragraph{
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.vod{
+    font-size: 25px;
+}
+.pour{
+    font-size: 14px;
+}
 .produits{
-    display: flex;
+    
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -95,6 +104,8 @@ section ul li a {
     font-family:Arial, Helvetica, sans-serif;
 }
 .produits .pic{
+    width: 450px;
+    height: 450px;
     margin-top: 5px;
 }
 .produits .ad{
@@ -108,4 +119,134 @@ section ul li a {
 }
 h2 {
     margin-bottom: 30px;
+}
+@media screen and (min-width:501px) {
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato:ital,wght@1,400;1,900&family=Work+Sans:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lato:ital,wght@1,400;1,900&family=Work+Sans:wght@500&display=swap');
+    
+    *
+    {
+        margin: 0px;
+        padding:0px;
+    }
+    nav{
+        display:flex;
+        
+    }
+    nav ul{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    nav ul li {
+        list-style-type: none; 
+        display: inline;
+        padding: 20px 10px 0px 0px;
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    nav #logo{
+        width: 150px;
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-right: 20px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        font-family: 'Fira Sans', sans-serif;
+        color:whitesmoke;
+        background-color: black;
+        font-size: 70px;
+        
+    
+    
+    }
+    .paragraph{
+        margin-left: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    section ul {
+        margin-top: 20px;
+        list-style-type: none;
+        padding: 20px;
+    
+    }
+    section ul li{
+        display: inline-block;
+        margin: 5px;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    section ul li + li:before{
+        content: "/";
+    }
+    section ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .vod{
+        margin-bottom: 20px;
+    }
+    .pour{
+        margin-bottom: 20px;
+    }
+    .produits{
+        display: flex;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .produits>div
+    {
+        padding: 0px 7px;
+        margin: 5px;
+    }
+    .produits .rrp {
+        color: gray;
+    }
+    .produits .saving {
+        color:green;
+        margin-bottom: 20px;
+    }
+    .p1{
+        border-style: groove;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+    .p2{
+        border-style: groove;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .p3{
+        border-style: groove;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .p4{
+        border-style: groove;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .produits .pic{
+        margin-top: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    .produits .ad{
+        text-decoration: none;
+        color:black;
+        
+    }
+    .produits .prix{
+        font-family:sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 30px;
+    }
+
 }
